@@ -1,0 +1,131 @@
+body{
+    position: relative;
+}
+.main{
+    width: 512px;
+    height: 560px;
+    /*background: #3262ab;*/
+    position: absolute;
+    left: 506px;
+    top: 50px;
+}
+.main .box{
+    padding-top: 50px;
+}
+ form {
+    margin: 60px;
+    margin-top: 15px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0px;
+}
+
+form input[type="text"],
+input[type="email"] {
+    display: block;
+    padding: 10px 0;
+    margin: 15px 0;
+    border-radius: 5px;
+    width: 25%;
+}
+
+.main .box .box-img img{
+    width: 100%;
+    height: 275px;
+    border-radius: 10px;
+}
+
+form input[type="submit"] {
+    display: block;
+    padding: 10px 0;
+    margin: 1px;
+    border: 1px solid transparent;
+    background: #3262ab;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    transition: all 1s;
+    
+}
+.main .box p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main .box h3,h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+.main .form-container span {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+
+}
+.form-container{
+    padding-bottom: 20px;
+}
+
+#co:hover{
+    background:#fe5b3d ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main .form-container input{
+    margin-left: 50px;
+    width: 140px;
+    height: 22px;
+
+}
+#pdate{
+   width: 238px;
+}
+#rdate{
+    width: 237px;
+ }
+.main .form-container #pick{
+    line-height: 4;
+}
+/*---------------------------------------------------------------*/
+.box2 {
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .box2 select {
+    background-color: #0563af;
+    color: white;
+    padding: 12px;
+    width: 400px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+  }
+  
+  .box2::before {
+    content: "\f13a";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    font-size: 28px;
+    line-height: 45px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+  }
+  
+  .box2:hover::before {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .box2 select option {
+    padding: 30px;
+  }
