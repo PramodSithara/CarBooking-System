@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1">
+
+<title>Audi Q5 2015</title>
+<link rel="stylesheet" href="../css/box.css">
+</head>
+<body>
+    <div class="main">
+        <form id="vev" action="../php/carlist.php" method="post" >
+            <div class="box">
+                <div class="box-img">
+                 <img src="../Pic/car1.jpg" alt="car1">
+                </div>
+                <p>Driver : Without Driver</p> 
+                <h3>2015 Audi Q5</h3>
+                <h2>Rs 8,000 <span>/Day</span></h2>
+
+                <div class="form-container">
+                            <div class="box2">
+                                <select name="car" required>
+                                <option value="Audi-Q5-2015">Audi Q5 2015</option>
+                                </select>
+                                <select name="rent" required>
+                                    <option value=8000>Rs 8,000 /Day</option>
+                                </select>
+                                
+                            </div>
+                            <div class="input-box">
+                                <span id="pick">Pick-Up Date</span>
+                                <input type="date" placeholder="yyyy-mm-dd" name="pick_date" id="pdate" required>
+                            </div>
+                            <div class="input-box">
+                                 <span>Return Date&nbsp;&nbsp;</span>
+                                 <input type="date" placeholder="yyyy-mm-dd" name="return_date" id="rdate" required>
+                            </div>
+                </div>
+                <input type="submit" value="Rent Now" name="submit" id="co">
+            </div>
+        </form>
+          
+    </div>
+
+</body>
+</html>
